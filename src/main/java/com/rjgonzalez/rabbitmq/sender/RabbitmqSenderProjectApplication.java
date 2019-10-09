@@ -1,0 +1,13 @@
+package com.rjgonzalez.rabbitmq.sender;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RabbitmqSenderProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RabbitmqSenderProjectApplication.class, args);
+	}
+
+}
